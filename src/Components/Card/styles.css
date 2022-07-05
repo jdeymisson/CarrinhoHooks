@@ -1,0 +1,22 @@
+.card {
+    width: 200px;
+    height: 320px;
+    background: #222;
+
+    margin-top: 80px;
+    border-radius:4px ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    margin: autox;
+}
+
+.controles {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}

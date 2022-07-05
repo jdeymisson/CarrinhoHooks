@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body, input, textarea, button {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 16px;
+}
+
+a, button {
+    cursor: pointer;
+}
+body {
+    background: #CC4343;
+    min-height: 100vh;
+    color: #fff;
+}
+
+main {
+    margin: 0 80px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 124px;
+    
+}
+
+h1 {
+    color: #222;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 140px;
+    background-color: #222;
+}

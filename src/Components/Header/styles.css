@@ -1,0 +1,31 @@
+header {
+    width: 100%;
+    height: 120px;
+    background: #222;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 108px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+button {
+    padding: 8px 24px;
+    border-radius: 4px;
+    color: #fff;
+    background: #CC4343;
+    border: 0;
+
+    transition: filter .2s ease;
+}
+
+button:hover, a:hover {
+    filter: brightness(.9);
+}
